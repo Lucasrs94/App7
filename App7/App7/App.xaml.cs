@@ -11,7 +11,7 @@ namespace App7
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new App7.Menus.Master();
         }
 
         protected override void OnStart()
