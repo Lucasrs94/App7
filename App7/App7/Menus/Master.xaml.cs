@@ -36,12 +36,15 @@ namespace App7.Menus
         {
             Detail = new Controles.ImePicker();
         }
-        private void Pesquisar
-(object sender, EventArgs args)
+        private void Pesquisar(object sender, EventArgs args)
         {
             Detail = new Controles.Search();
         }
-     
+        private void GoSwitch(object sender, EventArgs args)
+        {
+            Detail = new Controles.Switch();
+        }
+      
 
     }
 }

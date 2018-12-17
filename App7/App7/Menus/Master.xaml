@@ -13,6 +13,7 @@
                 <Button Text="DatePick" Clicked="GoDatePick"/>
                 <Button Text="TimePicker" Clicked="TimePicker"/>
                 <Button Text="SearchBar" Clicked="Pesquisar"/>
+                <Button Text="Switch" Clicked="GoSwitch"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
